@@ -56,7 +56,7 @@ public class Test1 {
         );
         p.setName("En un lugar de la mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.");
         assertThrows(ConstraintViolationException.class,() -> pr.save(p),
-        "you are not constraining name size to less than 51 characters");
+"you are not constraining name size to less than 51 characters");
     }
 
 }
